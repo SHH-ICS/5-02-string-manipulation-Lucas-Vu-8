@@ -5,3 +5,7 @@
 # PYTH
 # PYTHO
 # PYTHON
+word = input("Enter a word: ")
+print("Word Triangle:")
+for i in range(1, len(word) + 1):
+    print(word[:i])
